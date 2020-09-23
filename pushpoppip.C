@@ -15,6 +15,7 @@ void main()
 	{
 		scanf("%d",&a[i]);
 	}
+         K=n;
 	do{
 	printf("================MENU===============\n\n");
 	printf("::PRESS::\n[1] for add a number.\n[2] for delete a number.\n[3] for show your result.\n==>");
@@ -29,6 +30,7 @@ void main()
 
 			  a[k]=j;
 			  K++;
+                          Printf("Your change has been successful.\n");
 			}
 			else
 			  printf("\nError: array stack overflow.\n");
@@ -36,6 +38,7 @@ void main()
 
 
 		case 2: k--;
+                        Printf("Your change has been successful.");
 			break;
 
 		case 3: for(i=0;i<k;i++)
